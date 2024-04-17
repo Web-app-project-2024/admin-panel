@@ -1,0 +1,31 @@
+.laptop-wrapper {
+    width: 500px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    border: 1px solid rgb(198, 198, 198);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.laptop-wrapper > img {
+    margin: 0 auto;
+    display: block;
+    height: 150px;
+    object-fit: cover;
+}
+.info-wrapper {
+    margin-left: 20px;
+}
+
+.info-wrapper label {
+    display: block;
+    width: 40%;
+    align-self: center;
+}
+.info-wrapper .input {
+    width: 100%;
+}
+.buttons {
+    display: flex;
+    margin-top: 20px;
+}
